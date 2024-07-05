@@ -1,13 +1,13 @@
 <template>
-  <router-link class="app-link" :to="link">
-    <v-card color="indigo" variant="tonal">
-      <v-card-text>
-        <v-icon :icon="icon" />
+  <RouterLink class="app-link" :to="link">
+    <VCard color="indigo" variant="tonal">
+      <VCardText>
+        <VIcon :icon="icon" />
 
         {{ name }}
-      </v-card-text>
-    </v-card>
-  </router-link>
+      </VCardText>
+    </VCard>
+  </RouterLink>
 </template>
 
 <script setup lang="ts">

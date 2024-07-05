@@ -22,7 +22,7 @@
               icon
               @click="prevPage"
             >
-              <v-icon icon="mdi-arrow-left" />
+              <VIcon icon="mdi-arrow-left" />
             </VBtn>
           </VCol>
 
@@ -37,7 +37,7 @@
               icon
               @click="nextPage"
             >
-              <v-icon icon="mdi-arrow-right" />
+              <VIcon icon="mdi-arrow-right" />
             </VBtn>
           </VCol>
         </template>

@@ -1,19 +1,19 @@
 <template>
-  <v-card>
-    <v-card-title>{{ userStore.fullName }}</v-card-title>
-    <v-card-text>
+  <VCard>
+    <VCardTitle>{{ userStore.fullName }}</VCardTitle>
+    <VCardText>
       {{ userStore.userType }}
-    </v-card-text>
-    <v-card-actions>
-      <v-btn color="red">
+    </VCardText>
+    <VCardActions>
+      <VBtn color="red">
         <template #prepend>
-          <v-icon icon="mdi-location-exit" />
+          <VIcon icon="mdi-location-exit" />
         </template>
 
         Выйти
-      </v-btn>
-    </v-card-actions>
-  </v-card>
+      </VBtn>
+    </VCardActions>
+  </VCard>
 </template>
 
 <script setup lang="ts">
