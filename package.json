@@ -17,7 +17,9 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@types/uuid": "^10.0.0",
     "sass": "^1.77.6",
+    "uuid": "^10.0.0",
     "vite-plugin-vuetify": "^2.0.3",
     "vuetify": "^3.6.11"
   },

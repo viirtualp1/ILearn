@@ -1,12 +1,23 @@
 <template>
   <div class="app-page">
-    <v-container>
-      <v-card>
-        <v-card-title>Card 1</v-card-title>
-        <v-card-text>Card 1 text</v-card-text>
-      </v-card>
-    </v-container>
+    <VContainer>
+      <VRow gutters justify="center">
+        <VCol cols="12" md="2">
+          <UserProfileCard />
+        </VCol>
+        <VCol cols="12" md="3">
+          <NewsFeed />
+        </VCol>
+        <VCol cols="12" md="2">
+          <AppApps />
+        </VCol>
+      </VRow>
+    </VContainer>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { UserProfileCard } from '@/domains/User'
+import { AppApps } from '@/domains/App'
+import { NewsFeed } from '@/domains/News'
+</script>

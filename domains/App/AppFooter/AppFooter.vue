@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="app-footer"> LAR &copy; {{ currentYear }} </v-footer>
+  <div class="app-footer">LAR &copy; {{ currentYear }}</div>
 </template>
 
 <script setup lang="ts">

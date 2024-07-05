@@ -1,5 +1,7 @@
 <template>
-  <header class="app-header">NILearn</header>
+  <header class="app-header">
+    <a href="#">NILearn</a>
+  </header>
 </template>
 
 <script setup lang="ts"></script>
